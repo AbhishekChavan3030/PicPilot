@@ -2,6 +2,7 @@
   display: flex;
   justify-content: center;
 }
+
 .Main{
   width: fit-content;
   box-shadow: 1px 1px 10px gray;
@@ -19,10 +20,15 @@
 li:hover{
   cursor: pointer;
 }
+input{
+  font-size: small;
+width: 30vw;
+}
 header{
   display: flex;
   justify-content: center;
   padding: 20px;
+  
 }
 .leftside{
   padding: 20px;
@@ -55,4 +61,33 @@ label{
   background-color: aliceblue;
   border-radius: 5px;
   padding-left: 10px;
+}
+@media screen and (max-width:600px) {
+  .Main{
+    width: 85vw;
+   display:block ;
+  }
+  .leftside, .rightside{
+    width: 70vw;
+  }
+  button{
+    width: 100px;
+    font-size: small;
+    
+  
+  }
+  .dropdown input{
+    width: 200px;
+    margin: 10px;
+  }
+  .Image-Container img{
+    height: 20vh;
+  }
+  header{
+    margin: 0;
+  padding-bottom: 0;
+  }
+  
+  
+  
 }
