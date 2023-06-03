@@ -1,0 +1,58 @@
+.all{
+  display: flex;
+  justify-content: center;
+}
+.Main{
+  width: fit-content;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 8px;
+  padding: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 1px 1px 10px rgb(86, 83, 83);
+  border-radius: 8px;
+}
+.Image-Container img{
+  height: 40vh;
+}
+li:hover{
+  cursor: pointer;
+}
+header{
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+.leftside{
+  padding: 20px;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 8px;
+  margin-right:5px ;
+  
+}
+.rightside{
+  padding: 20px;
+  box-shadow: 1px 1px 10px gray;
+  border-radius: 8px;
+  margin-left:5px ;
+}
+button{
+  width: 200px;
+  margin: 8px;
+  border: none;
+  background-color: teal;
+  color: white;
+  border-radius: 8px;
+  padding: 5px;
+
+}
+.dropdown input{
+  width: 300px;
+  margin: 10px;
+}
+label{
+  background-color: aliceblue;
+  border-radius: 5px;
+  padding-left: 10px;
+}
